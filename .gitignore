@@ -9,6 +9,13 @@ __pycache__/
 # C extensions
 *.so
 
+# MLflow local server storage
+mlflow.db
+mlartifacts/
+
+# Downloaded and processed data
+data/
+
 # Distribution / packaging
 .Python
 build/
